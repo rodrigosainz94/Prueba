@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            button2 = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -40,19 +43,41 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(33, 261);
+            button2.Name = "button2";
+            button2.Size = new Size(315, 165);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(261, 12);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(366, 228);
+            dataGridView1.TabIndex = 2;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView1);
+            Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button button1;
+        private Button button2;
+        private DataGridView dataGridView1;
     }
 }
