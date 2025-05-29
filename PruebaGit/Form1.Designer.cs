@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(158, 101);
+            button1.Location = new Point(121, 359);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(261, 12);
+            dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(366, 228);
             dataGridView1.TabIndex = 2;
